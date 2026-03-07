@@ -15,4 +15,9 @@ print(customer_list)
 customer_list.insert(1,"jim")
 print(customer_list)
 print(type(customer_list[1]))
+customer_list.remove("jim")
+print(customer_list)
+
+customer_list.pop(1)
+print(customer_list)
       
